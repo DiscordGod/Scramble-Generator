@@ -4,9 +4,9 @@ var Scrambo = require('scrambo');
 var threebythree = new Scrambo();
 
 app.get('/', function (req, res) {
-  res.send(threebythree.get(30))
+    res.send(threebythree.get(1) + "\n")
 })
 
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+  console.log("Up and ready cappin'")
 })
